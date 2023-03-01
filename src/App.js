@@ -2,7 +2,6 @@ import { useTyping } from './utils/useTyping';
 import './App.css';
 
 const headingContent = `Hi! My name is Thomas Scheuneman.  I'm a fullstack Software Engineer currently working at GoodRx.`;
-const infoContent = 'Something goes here';
 
 function App() {
 
@@ -12,14 +11,13 @@ function App() {
     <div className="App">
       <div className="container">
         <h1>{ typedHeading }</h1>
-
         <div id="info" className={headingIsDone ? 'show' : null}>
           <hr />
           <p>
-            { infoContent }
+            Something goes here
           </p>
           <h3> Interesting Projects </h3>
-          WIP
+            WIP
           <h3> Find Me </h3>
           <ul>
             <li>
@@ -27,7 +25,6 @@ function App() {
             </li>
             <li>
               <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/tscheuneman"> Linkedin </a>
-
             </li>
           </ul>
         </div>
